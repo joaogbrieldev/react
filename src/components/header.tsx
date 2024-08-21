@@ -6,8 +6,6 @@ export const Header = () => {
   function genRandomInt(max: number): number {
     return Math.floor(Math.random() * (max + 1));
   }
-  console.log(genRandomInt(1));
-  console.log(reactDescriptions);
   return (
     <div>
       <header>
